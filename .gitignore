@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# PyTorch model checkpoints & weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# Datasets and archives (prevent accidental commits of large data)
+*.tar.gz
+*.zip
+
+# IDE and editor settings
+.vscode/
+.idea/
+.kilo/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
