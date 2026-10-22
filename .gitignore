@@ -36,6 +36,10 @@ ENV/
 *.tar.gz
 *.zip
 *.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
 data/
 datasets/
 
